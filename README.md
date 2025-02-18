@@ -6,43 +6,43 @@ Welcome to the **Generosity X Developer Wiki**. Generosity X (GX) is a digital a
 
 ## Main Sections:
 
-### [WordPress](#wordpress)
+### [WordPress](/WordPress)
 Many GX clients' websites are built on WordPress. This section covers key aspects of WordPress development, including theme structure, plugins, and best practices.
 
-#### [Advanced Custom Fields](#advanced-custom-fields)
+#### [Advanced Custom Fields](/WordPress#advanced-custom-fields)
 - Configuration and use of ACF for custom content types.
 - Field group organization and best practices.
 
-#### [Page Builders](#page-builders)
+#### [Page Builders](/WordPress#page-builders)
 - Overview of Beaver Builder and Elementor.
 - Customization and templating guidelines.
 - Best practices for performance and accessibility.
 
-### [Mailchimp](#mailchimp)
+### [Mailchimp](/Mailchimp)
 Mailchimp is used for email marketing campaigns across multiple clients. This section includes:
 - API integration with WordPress.
 - Automation workflows.
 - Newsletter templates.
 
-### [VWO](#vwo)
+### [VWO](/VWO)
 VWO is used for A/B testing and conversion rate optimization for various client projects. This section includes:
 - Setting up experiments.
 - Tracking key metrics.
 - Best practices for running tests.
 
-### [Flywheel](#flywheel)
+### [Flywheel](/Flywheel)
 Flywheel is the hosting provider for several GX clients. This section covers:
 - Server setup and configurations.
 - Staging and deployment workflows.
 - Backup and restore processes.
 
-### [Best Practices](#best-practices)
+### [Best Practices](/Best-Practices)
 Guidelines for:
 - Code structure and maintainability across different client projects.
 - Security and performance optimizations.
 - SEO and accessibility compliance.
 
-### [Tool Recommendations](#tool-recommendations)
+### [Tool Recommendations](/Tool-Recommendations)
 Recommended tools for:
 - Development (IDEs, debugging tools, version control).
 - Design (UI/UX tools, asset management).
