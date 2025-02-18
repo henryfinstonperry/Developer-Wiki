@@ -112,7 +112,7 @@ Ensuring that your emails render correctly across different email clients is cru
 ### Best Practices for Testing Emails:
 - **Download Outlook and Gmail on your phone** to check mobile rendering.
 - **Test emails in Outlook (desktop), Gmail web, and Outlook web** to catch common formatting issues.
-- **Outlook-specific issues are common** – many fixes involve using "Outlook hacks" like tables for layout instead of flexbox.
+- **Outlook-specific issues are common** – there are plenty of resources out there with fixes for specific bugs.
 - **Every client renders HTML emails differently** – if something looks off, search for fixes specific to that client.
 
 ## Helpful Resources
