@@ -11,7 +11,7 @@
 
 ### **Adobe Photoshop**
 - Useful for extracting assets such as images and fonts.
-- Requires an (Adobe license)[https://www.algonquincollege.com/byod/adobe/].
+- Requires an [Adobe license](https://www.algonquincollege.com/byod/adobe/).
 
 ## Browsers for Testing
 To ensure compatibility across different platforms, install and use multiple browsers:
