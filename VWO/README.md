@@ -1,6 +1,5 @@
 # Introduction to VWO
 
-## What is VWO?
 VWO (Visual Website Optimizer) is a powerful A/B testing and conversion optimization tool used to modify and test variations of web pages. Unlike a CMS, **VWO is merely an overlay and does not provide an easy way to add new content**. Instead, it allows you to modify existing elements on a page using a limited HTML editor. This can make complex changes challenging, especially when working with dynamic content or needing to add entirely new sections.
 
 ### **Key Limitations to Keep in Mind:**
