@@ -65,12 +65,6 @@ Mailchimp allows the use of **merge tags** to personalize emails with subscriber
 <p>Thank you for subscribing to our newsletter!</p>
 ```
 
-#### **Custom Merge Fields**
-To create custom fields:
-1. Go to **Audience > Settings > Audience fields and merge tags**.
-2. Add a new field (e.g., `Birthday`).
-3. Assign a merge tag like `*|BIRTHDAY|*` and use it in your email template.
-
 ### **Creating Editable Divs in Mailchimp**
 If you're designing custom templates and want content to be **editable in Mailchimp's campaign builder**, you can use Mailchimp’s editable regions.
 
