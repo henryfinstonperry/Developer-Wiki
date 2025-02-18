@@ -105,6 +105,16 @@ Users can replace the image in the Mailchimp editor without modifying the HTML.
 </table>
 ```
 
+## Email Testing & Compatibility
+
+Ensuring that your emails render correctly across different email clients is crucial. **Litmus** and **Email on Acid** are two excellent tools for testing email compatibility. However, they require a paid subscription, though both offer a 7-day free trial that can be useful for major projects.
+
+### Best Practices for Testing Emails:
+- **Download Outlook and Gmail on your phone** to check mobile rendering.
+- **Test emails in Outlook (desktop), Gmail web, and Outlook web** to catch common formatting issues.
+- **Outlook-specific issues are common** – many fixes involve using "Outlook hacks" like tables for layout instead of flexbox.
+- **Every client renders HTML emails differently** – if something looks off, search for fixes specific to that client.
+
 ## Helpful Resources
 - [Mailchimp's Guide to Custom HTML Templates](https://mailchimp.com/help/create-custom-html-template/)
 - [Email Development Best Practices](https://www.campaignmonitor.com/resources/guides/how-to-code-html-emails/)
