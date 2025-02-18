@@ -30,12 +30,6 @@ VWO is used for A/B testing and conversion rate optimization for various client 
 - Tracking key metrics.
 - Best practices for running tests.
 
-### [Flywheel](/Flywheel)
-Flywheel is the hosting provider for several GX clients. This section covers:
-- Server setup and configurations.
-- Staging and deployment workflows.
-- Backup and restore processes.
-
 ### [Best Practices](/Best-Practices)
 Guidelines for:
 - Code structure and maintainability across different client projects.
