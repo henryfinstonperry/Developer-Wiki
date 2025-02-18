@@ -3,8 +3,7 @@
 ## Password Management
 ### 1Password
 - GX uses 1Password to share login credentials for client websites, Mailchimp accounts, and other services.
-- Install the 1Password browser extension to quickly retrieve login credentials when needed.
-- Always use 1Password for accessing client accounts rather than saving passwords locally or in your browser.
+- Try to always use it for accessing client accounts rather than saving passwords locally or in your browser.
 
 ## Time Tracking & Invoicing
 ### **Harvest**
