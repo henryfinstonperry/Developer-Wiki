@@ -8,10 +8,11 @@
 ## Design & Asset Management
 ### **Figma**
 - Recommended for UI/UX design and prototyping.
+- Their design team uses this frequently.
 
 ### **Adobe Photoshop**
 - Useful for extracting assets such as images and fonts.
-- Requires an [Adobe license](https://www.algonquincollege.com/byod/adobe/).
+- [Get a free Adobe license from Algonquin College](https://www.algonquincollege.com/byod/adobe/).
 
 ## Browsers for Testing
 To ensure compatibility across different platforms, install and use multiple browsers:
