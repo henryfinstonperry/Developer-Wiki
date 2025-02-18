@@ -1,4 +1,4 @@
-# Mailchimp Guide: Creating Table-Based Email Templates
+# Mailchimp Guide
 
 ## Best Practices
 - **Always verify the business account** before making edits to templates or campaigns.
