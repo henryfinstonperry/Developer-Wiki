@@ -21,18 +21,18 @@ There are cases where their default functionality is limiting. In such situation
 - Some builders strip out certain tags (e.g., `<script>` or `<iframe>`), so you may need to test how they process raw code.
 
 #### Executing JavaScript or PHP via Shortcodes
--If direct JavaScript or PHP is filtered out (especially in environments with security plugins), consider using a plugin that allows you to execute **custom scripts via shortcodes**.
+- If direct JavaScript or PHP is filtered out (especially in environments with security plugins), consider using a plugin that allows you to execute **custom scripts via shortcodes**.
 - Plugins like **WPCode (formerly Code Snippets)** or **Insert PHP Code Snippet** let you define reusable functions and call them via shortcodes within the builder.
 For JavaScript-heavy modifications, you may need to use a **custom JavaScript injector** plugin or enqueue scripts via functions.php (if permitted).
 
 ## Advanced Custom Fields (ACF)
-Many client projects use **Advanced Custom Fields (ACF)** for managing structured data. This allows developers to create custom fields without modifying theme files.
+Many client projects use **Advanced Custom Fields (ACF)** for managing structured data. This allows you to create custom fields without modifying theme files.
 
 ### Best Practices for ACF:
 - **Use ACF field groups** to organize custom fields logically.
 - **Avoid direct file modifications**; instead, use ACF’s built-in options.
 - **Ensure compatibility with page builders** by testing field output.
-- **Use the ACF JSON feature** to sync field settings across environments.
+- **Use the ACF JSON import/output feature** to sync field settings across environments.
 
 ## Additional Recommendations
 - **Test all changes in a staging environment before deploying to production.**
@@ -40,4 +40,4 @@ Many client projects use **Advanced Custom Fields (ACF)** for managing structure
 - **Leverage custom plugins for site-specific PHP changes.**
 - **Always validate custom PHP and JavaScript before applying changes.**
 
-Following these best practices will help maintain site stability and avoid unnecessary downtime. If in doubt, consult with the project lead before making significant modifications.
+If in doubt, consult with GX before making significant modifications.
