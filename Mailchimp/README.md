@@ -116,10 +116,8 @@ Ensuring that your emails render correctly across different email clients is cru
 - **Every client renders HTML emails differently** – if something looks off, search for fixes specific to that client.
 
 ## Helpful Resources
-- [Mailchimp's Guide to Custom HTML Templates](https://mailchimp.com/help/create-custom-html-template/)
-- [Email Development Best Practices](https://www.campaignmonitor.com/resources/guides/how-to-code-html-emails/)
-- [Litmus – Email Testing Tool](https://www.litmus.com/)
+- [Mailchimp's Guide to Custom HTML Templates](https://templates.mailchimp.com)
+- [Email Development Best Practices](https://www.emailonacid.com/blog/article/email-development/email-development-best-practices-2/)
 - [Can I Email – Email Client Support Checker](https://www.caniemail.com/)
 - [Mailchimp Merge Tags Guide](https://mailchimp.com/help/getting-started-with-merge-tags/)
-- [Editable Content in Mailchimp](https://mailchimp.com/help/editable-content-areas/)
-- [Mailchimp Custom Templates](https://mailchimp.com/help/create-custom-html-template/)
+- [Editable Content in Mailchimp](https://mailchimp.com/help/create-editable-content-areas-with-mailchimps-template-language/)
