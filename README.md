@@ -49,8 +49,3 @@ Recommended tools for:
 - For security and best practices, ensure that plugins and themes are updated responsibly.
 - API keys and credentials should be stored securely and not committed to repositories.
 - Use version control (Git) for all development changes.
-
-For any questions or onboarding assistance, please refer to the relevant sections above or reach out to the project lead.
-
----
-**Last Updated:** _[Insert Date]_
