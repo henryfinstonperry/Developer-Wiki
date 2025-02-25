@@ -9,6 +9,16 @@ WordPress is a widely used CMS among Generosity X clients. Be cautious; modifyin
 - **Use a PHP validator before saving code changes.** This helps catch syntax errors before applying them. [PHP Syntax Validator](https://phpcodechecker.com/).
 - **Avoid modifying the `functions.php` file.** A mistake in this file can make the admin panel inaccessible, requiring intervention from hosting support.
 
+### Public, Private, and Password-Protected Status:
+- A new page is automatically put into Draft mode until it's published.
+- GX usually prefers you *not to publish pages* until the "go-live" date.
+- You have a few options for sending pages to the client to review before they are published:
+  - **Password Protected:** This is my preferred way to do it, as the reviewer does not have to be logged in to their WordPress account in order to see the page. There are times when this feature doesn't work becuase of plugin conflicts, especially with theme builders (covered in the next section).
+    - Set the password to something simple, and send to client along with the URL to preview. I usually use the password 'generosity'.
+    - Remember to set the page to Public and remove the password protection on the go-live date. 
+  - **Privately Published:** This is a good fallback option if their theme builder is interfering with the password protection feature. Viewing it requires the user to be logged in to their WordPress account, but the URL will be the final/published URL.
+  - **Draft:** This is not recommended, but can be useful if you are just sending the page to GX to ask questions or to get a very early preview. Their client (i.e., the website you are working on), probably won't have the knowledge to find and preview the page. The URL is not live in this case; it just ends up being a URL parameter with the post ID. 
+
 ## Page Builders
 Many Generosity X client websites rely on **Beaver Builder** and **Elementor** for page design and content structuring. These tools provide a safer and more efficient alternative to modifying template files directly.
 
