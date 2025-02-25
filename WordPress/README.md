@@ -44,4 +44,24 @@ If in doubt, consult with GX before making significant modifications.
 
 ## Welcome Hall Mission Campaigns
 Welcome Hall Mission uses a unique configuration of ACF to handle their rotating giving campaigns. You can safely create and preview campaigns on their live site without the need for a staging environment.
+
+### Building a Campaign
 - Navigate to [Campaigns > Set Campaign](https://welcomehallmission.com/wp-admin/edit.php?post_type=campaigns&page=set-campaign) to set the live campaign. The dropdown list is populated by published Campaign posts. **Caution:** The Update button on this page has an immediate affect on the live site. Preview and test adequately before confirming.
+- Navigate to [Campaigns > Campaigns](https://welcomehallmission.com/wp-admin/edit.php?post_type=campaigns) to view all Campaign posts. Use recent ones for reference as some fields have become unnecessary when the Campaign pages are rendered.
+- Here are the fields you need to set for the Campaign:
+  - **Home Background Image** (required)
+  - **Home Headline (English)** (required)
+  - **Home Subheadline (English)**
+  - **Home Button URL (English)** (required)
+  - **Home Button Text (English)** (required)
+  - **Home Headline (Français)** (required)
+  - **Home Subheadline (Français)**
+  - **Home Button URL (Français)** (required)
+  - **Home Button Text (Français)** (required)
+- And here are the outdated fields that you *still need to set* for the Campaign to work:
+  - The following can be populated with any image: *Donate Background Image*, *Donate Background Image - French*, *Thank You Background Image - English*, *Thank You Background Image - French*
+  - The following can be populated with a space or "N/A": *Donate Headline (English)*, *Thank You Headline (English)*, *Donate Headline (Français)*, *Thank You Headline (Français)*
+
+### Testing a Campaign
+- You should only need to preview the Home pages in English and French; the other pages are no longer in use since they switched to a new popup donation form.
+- When you click on "Preview Accueil" (French Home Page), it will show in English. This is a bug in their multi-lingual domain service. All you need to do is change "welcomehallmission.com" in the URL to "missionbonaccueil.com", keeping the URL parameters. In the end your French preview URL will be "https://missionbonaccueil.com/?preview_campaign={{campaign_id}}"
