@@ -18,6 +18,9 @@ Many GX clients' websites are built on WordPress. This section covers key aspect
 - Customization and templating guidelines.
 - Best practices for performance and accessibility.
 
+#### [Campaigns for Welcome Hall Mission](/WordPress/#welcome-hall-mission-campaigns)
+- Instructions for creating and setting a seasonal campaign for WHM.
+
 ### [Mailchimp](/Mailchimp)
 Mailchimp is used for email marketing campaigns across multiple clients. This section includes:
 - API integration with WordPress.
