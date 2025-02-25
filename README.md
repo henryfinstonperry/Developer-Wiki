@@ -9,14 +9,17 @@ Welcome to the **Generosity X Developer Wiki**. Generosity X (GX) is a digital a
 ### [WordPress](/WordPress)
 Many GX clients' websites are built on WordPress. This section covers key aspects of WordPress development, including theme structure, plugins, and best practices.
 
-#### [Advanced Custom Fields](/WordPress#advanced-custom-fields)
-- Configuration and use of ACF for custom content types.
-- Field group organization and best practices.
+#### [Public, Private, and Password-Protected Status](/WordPress#public-private-and-password-protected-status)
+- Covers the best ways to send pages to GX and the client for review.
 
 #### [Page Builders](/WordPress#page-builders)
 - Overview of Beaver Builder and Elementor.
 - Customization and templating guidelines.
 - Best practices for performance and accessibility.
+
+#### [Advanced Custom Fields](/WordPress#advanced-custom-fields)
+- Configuration and use of ACF for custom content types.
+- Field group organization and best practices.
 
 #### [Campaigns for Welcome Hall Mission](/WordPress/#welcome-hall-mission-campaigns)
 - Instructions for creating and setting a seasonal campaign for WHM.
