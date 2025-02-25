@@ -152,3 +152,46 @@ updateThermometer(amountRaised); // Update the thermometer
 </body>
 </html>
 ```
+
+## **Percentage of Time Passed** (Useful for use with Thermometer)
+
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Percentage of Time Passed</title>
+</head>
+<body>
+
+<h1>Percentage of Time Passed</h1>
+
+<script>
+// Set the target end date (August 31, 2024, 11:59 PM)
+var endDate = new Date("August 31, 2024 23:59:00").getTime();
+
+// Get the current date and time
+var now = new Date().getTime();
+
+// Calculate the difference in milliseconds between now and the end date
+var timeDifference = endDate - now;
+
+// Calculate the total time difference between the start and end dates (in milliseconds)
+var totalDifference = endDate - new Date("January 1, 2024").getTime();
+
+// Calculate the percentage of time passed
+var percentagePassed = ((totalDifference - timeDifference) / totalDifference) * 100;
+
+// Round the percentage to two decimal places
+percentagePassed = Math.round(percentagePassed * 100) / 100;
+
+// Display the percentage of time passed
+console.log("Percentage of time passed: " + percentagePassed + "%");
+
+// You can use the percentagePassed variable to display or use the percentage as needed.
+</script>
+
+</body>
+</html>
+```
