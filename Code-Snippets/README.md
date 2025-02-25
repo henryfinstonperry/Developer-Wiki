@@ -195,3 +195,95 @@ console.log("Percentage of time passed: " + percentagePassed + "%");
 </body>
 </html>
 ```
+
+## **Mailchimp Signup Form**
+
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mailchimp Signup Form</title>
+</head>
+<body>
+    <h1>Sign Up for Our Newsletter</h1>
+
+    <?php
+    // Replace these with your actual Mailchimp values
+    $apiKey = 'YOUR_MAILCHIMP_API_KEY';
+    $listId = 'YOUR_LIST_ID';
+    $server = 'YOUR_SERVER_PREFIX'; // e.g., 'us1'
+
+    // Variable to store messages
+    $errorMessage = '';
+
+    // Check if the form was submitted
+    if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+        // Get the email address from the form
+        $email = isset($_POST['email']) ? $_POST['email'] : '';
+
+        // If email is empty, display an error message
+        if (empty($email)) {
+            $errorMessage = 'Please enter a valid email address.';
+        } else {
+            // Mailchimp API endpoint
+            $url = 'https://' . $server . '.api.mailchimp.com/3.0/lists/' . $listId . '/members/';
+
+            // Data to send to Mailchimp
+            $data = [
+                'email_address' => $email,
+                'status'        => 'subscribed' // You can set to 'pending' for double opt-in
+            ];
+
+            // JSON encode the data
+            $jsonData = json_encode($data);
+
+            // Set up cURL request
+            $ch = curl_init($url);
+
+            curl_setopt($ch, CURLOPT_USERPWD, 'user:' . $apiKey); // API key authentication
+            curl_setopt($ch, CURLOPT_HTTPHEADER, ['Content-Type: application/json']);
+            curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+            curl_setopt($ch, CURLOPT_TIMEOUT, 10);
+            curl_setopt($ch, CURLOPT_POST, true);
+            curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false); // Disable SSL verification (not recommended for production)
+            curl_setopt($ch, CURLOPT_POSTFIELDS, $jsonData);
+
+            // Execute the request
+            $result = curl_exec($ch);
+
+            // Close the cURL session
+            curl_close($ch);
+
+            // Decode the response from Mailchimp
+            $response = json_decode($result, true);
+
+            // Check if the subscription was successful
+            if (isset($response['status']) && $response['status'] == 'subscribed') {
+                // Redirect to a success page on successful subscription
+                header('Location: thank-you.html');
+                exit();
+            } else {
+                // Error message from Mailchimp
+                $errorMessage = 'There was an error: ' . $response['detail'];
+            }
+        }
+    }
+    ?>
+
+    <!-- Display error message (if any) -->
+    <?php if (!empty($errorMessage)): ?>
+        <p><?php echo htmlspecialchars($errorMessage); ?></p>
+    <?php endif; ?>
+
+    <!-- Signup form -->
+    <form method="POST" action="">
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" required>
+        <button type="submit">Sign Up</button>
+    </form>
+</body>
+</html>
+```
+
