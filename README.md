@@ -42,6 +42,11 @@ Recommended tools for:
 - Design (UI/UX tools, asset management).
 - Performance monitoring and analytics.
 
+### [Code Snippets](/Code-Snippets)
+HTML/CSS/JS code for fundraising things like:
+- Thermometers
+- Countdowns
+- 
 ---
 
 ### Additional Notes
