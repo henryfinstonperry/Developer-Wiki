@@ -153,7 +153,7 @@ updateThermometer(amountRaised); // Update the thermometer
 </html>
 ```
 
-## **Percentage of Time Passed** (Useful for use with Thermometer)
+## **Percentage of Time Passed** (for use with Thermometer)
 
 ```
 <!DOCTYPE html>
