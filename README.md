@@ -46,6 +46,7 @@ Recommended tools for:
 HTML/CSS/JS code for fundraising things like:
 - Thermometers
 - Countdowns
+- Mailchimp Signup Forms
 
 ---
 
