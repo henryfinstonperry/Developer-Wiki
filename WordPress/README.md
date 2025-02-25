@@ -41,3 +41,7 @@ Many client projects use **Advanced Custom Fields (ACF)** for managing structure
 - **Always validate custom PHP and JavaScript before applying changes.**
 
 If in doubt, consult with GX before making significant modifications.
+
+## Welcome Hall Mission Campaigns
+Welcome Hall Mission uses a unique configuration of ACF to handle their rotating giving campaigns. You can safely create and preview campaigns on their live site without the need for a staging environment.
+- Navigate to [Campaigns > Set Campaign](https://welcomehallmission.com/wp-admin/edit.php?post_type=campaigns&page=set-campaign) to set the live campaign. The dropdown list is populated by published Campaign posts. **Caution:** The Update button on this page has an immediate affect on the live site. Preview and test adequately before confirming.
